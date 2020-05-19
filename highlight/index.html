@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href='https://www.maringngerrang.com/favicon.ico' rel='icon' type='image/x-icon'/>
+
+  <title>Maringngerrang ― Demo Syntax Highlighter</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <!-- Custom styles for this template -->
+  <link href="css/clean-blog.min.css" rel="stylesheet">
+  
+  <!-- For Syntax Highlighter Links -->
+  <link rel="stylesheet" title="Default" href="https://code.maringngerrang.com/highlight/default.css">
+  <link rel="alternate stylesheet" title="A 11 Y Dark" href="https://code.maringngerrang.com/highlight/a11y-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="A 11 Y Light" href="https://code.maringngerrang.com/highlight/a11y-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Agate" href="https://code.maringngerrang.com/highlight/agate.css" disabled="">
+  <link rel="alternate stylesheet" title="An Old Hope" href="https://code.maringngerrang.com/highlight/an-old-hope.css" disabled="">
+  <link rel="alternate stylesheet" title="Androidstudio" href="https://code.maringngerrang.com/highlight/androidstudio.css" disabled="">
+  <link rel="alternate stylesheet" title="Arduino Light" href="https://code.maringngerrang.com/highlight/arduino-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Arta" href="https://code.maringngerrang.com/highlight/arta.css" disabled="">
+  <link rel="alternate stylesheet" title="Ascetic" href="https://code.maringngerrang.com/highlight/ascetic.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Cave Dark" href="https://code.maringngerrang.com/highlight/atelier-cave-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Cave Light" href="https://code.maringngerrang.com/highlight/atelier-cave-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Dune Dark" href="https://code.maringngerrang.com/highlight/atelier-dune-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Dune Light" href="https://code.maringngerrang.com/highlight/atelier-dune-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Estuary Dark" href="https://code.maringngerrang.com/highlight/atelier-estuary-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Estuary Light" href="https://code.maringngerrang.com/highlight/atelier-estuary-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Forest Dark" href="https://code.maringngerrang.com/highlight/atelier-forest-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Forest Light" href="https://code.maringngerrang.com/highlight/atelier-forest-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Heath Dark" href="https://code.maringngerrang.com/highlight/atelier-heath-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Heath Light" href="https://code.maringngerrang.com/highlight/atelier-heath-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Lakeside Dark" href="https://code.maringngerrang.com/highlight/atelier-lakeside-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Lakeside Light" href="https://code.maringngerrang.com/highlight/atelier-lakeside-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Plateau Dark" href="https://code.maringngerrang.com/highlight/atelier-plateau-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Plateau Light" href="https://code.maringngerrang.com/highlight/atelier-plateau-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Savanna Dark" href="https://code.maringngerrang.com/highlight/atelier-savanna-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Savanna Light" href="https://code.maringngerrang.com/highlight/atelier-savanna-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Seaside Dark" href="https://code.maringngerrang.com/highlight/atelier-seaside-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Seaside Light" href="https://code.maringngerrang.com/highlight/atelier-seaside-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Sulphurpool Dark" href="https://code.maringngerrang.com/highlight/atelier-sulphurpool-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Atelier Sulphurpool Light" href="https://code.maringngerrang.com/highlight/atelier-sulphurpool-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Atom One Dark Reasonable" href="https://code.maringngerrang.com/highlight/atom-one-dark-reasonable.css" disabled="">
+  <link rel="alternate stylesheet" title="Atom One Dark" href="https://code.maringngerrang.com/highlight/atom-one-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Atom One Light" href="https://code.maringngerrang.com/highlight/atom-one-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Brown Paper" href="https://code.maringngerrang.com/highlight/brown-paper.css" disabled="">
+  <link rel="alternate stylesheet" title="Codepen Embed" href="https://code.maringngerrang.com/highlight/codepen-embed.css" disabled="">
+  <link rel="alternate stylesheet" title="Color Brewer" href="https://code.maringngerrang.com/highlight/color-brewer.css" disabled="">
+  <link rel="alternate stylesheet" title="Darcula" href="https://code.maringngerrang.com/highlight/darcula.css" disabled="">
+  <link rel="alternate stylesheet" title="Dark" href="https://code.maringngerrang.com/highlight/dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Default" href="https://code.maringngerrang.com/highlight/default.css" disabled="">
+  <link rel="alternate stylesheet" title="Docco" href="https://code.maringngerrang.com/highlight/docco.css" disabled="">
+  <link rel="alternate stylesheet" title="Dracula" href="https://code.maringngerrang.com/highlight/dracula.css" disabled="">
+  <link rel="alternate stylesheet" title="Far" href="https://code.maringngerrang.com/highlight/far.css" disabled="">
+  <link rel="alternate stylesheet" title="Foundation" href="https://code.maringngerrang.com/highlight/foundation.css" disabled="">
+  <link rel="alternate stylesheet" title="Github Gist" href="https://code.maringngerrang.com/highlight/github-gist.css" disabled="">
+  <link rel="alternate stylesheet" title="Github" href="https://code.maringngerrang.com/highlight/github.css" disabled="">
+  <link rel="alternate stylesheet" title="Gml" href="https://code.maringngerrang.com/highlight/gml.css" disabled="">
+  <link rel="alternate stylesheet" title="Googlecode" href="https://code.maringngerrang.com/highlight/googlecode.css" disabled="">
+  <link rel="alternate stylesheet" title="Gradient Dark" href="https://code.maringngerrang.com/highlight/gradient-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Grayscale" href="https://code.maringngerrang.com/highlight/grayscale.css" disabled="">
+  <link rel="alternate stylesheet" title="Gruvbox Dark" href="https://code.maringngerrang.com/highlight/gruvbox-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Gruvbox Light" href="https://code.maringngerrang.com/highlight/gruvbox-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Hopscotch" href="https://code.maringngerrang.com/highlight/hopscotch.css" disabled="">
+  <link rel="alternate stylesheet" title="Hybrid" href="https://code.maringngerrang.com/highlight/hybrid.css" disabled="">
+  <link rel="alternate stylesheet" title="Idea" href="https://code.maringngerrang.com/highlight/idea.css" disabled="">
+  <link rel="alternate stylesheet" title="Ir Black" href="https://code.maringngerrang.com/highlight/ir-black.css" disabled="">
+  <link rel="alternate stylesheet" title="Isbl Editor Dark" href="https://code.maringngerrang.com/highlight/isbl-editor-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Isbl Editor Light" href="https://code.maringngerrang.com/highlight/isbl-editor-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Kimbie Dark" href="https://code.maringngerrang.com/highlight/kimbie.dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Kimbie Light" href="https://code.maringngerrang.com/highlight/kimbie.light.css" disabled="">
+  <link rel="alternate stylesheet" title="Lightfair" href="https://code.maringngerrang.com/highlight/lightfair.css" disabled="">
+  <link rel="alternate stylesheet" title="Magula" href="https://code.maringngerrang.com/highlight/magula.css" disabled="">
+  <link rel="alternate stylesheet" title="Mono Blue" href="https://code.maringngerrang.com/highlight/mono-blue.css" disabled="">
+  <link rel="alternate stylesheet" title="Monokai Sublime" href="https://code.maringngerrang.com/highlight/monokai-sublime.css" disabled="">
+  <link rel="alternate stylesheet" title="Monokai" href="https://code.maringngerrang.com/highlight/monokai.css" disabled="">
+  <link rel="alternate stylesheet" title="Night Owl" href="https://code.maringngerrang.com/highlight/night-owl.css" disabled="">
+  <link rel="alternate stylesheet" title="Nord" href="https://code.maringngerrang.com/highlight/nord.css" disabled="">
+  <link rel="alternate stylesheet" title="Obsidian" href="https://code.maringngerrang.com/highlight/obsidian.css" disabled="">
+  <link rel="alternate stylesheet" title="Ocean" href="https://code.maringngerrang.com/highlight/ocean.css" disabled="">
+  <link rel="alternate stylesheet" title="Paraiso Dark" href="https://code.maringngerrang.com/highlight/paraiso-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Paraiso Light" href="https://code.maringngerrang.com/highlight/paraiso-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Pojoaque" href="https://code.maringngerrang.com/highlight/pojoaque.css" disabled="">
+  <link rel="alternate stylesheet" title="Purebasic" href="https://code.maringngerrang.com/highlight/purebasic.css" disabled="">
+  <link rel="alternate stylesheet" title="Qtcreator Dark" href="https://code.maringngerrang.com/highlight/qtcreator_dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Qtcreator Light" href="https://code.maringngerrang.com/highlight/qtcreator_light.css" disabled="">
+  <link rel="alternate stylesheet" title="Railscasts" href="https://code.maringngerrang.com/highlight/railscasts.css" disabled="">
+  <link rel="alternate stylesheet" title="Rainbow" href="https://code.maringngerrang.com/highlight/rainbow.css" disabled="">
+  <link rel="alternate stylesheet" title="Routeros" href="https://code.maringngerrang.com/highlight/routeros.css" disabled="">
+  <link rel="alternate stylesheet" title="School Book" href="https://code.maringngerrang.com/highlight/school-book.css" disabled="">
+  <link rel="alternate stylesheet" title="Shades Of Purple" href="https://code.maringngerrang.com/highlight/shades-of-purple.css" disabled="">
+  <link rel="alternate stylesheet" title="Solarized Dark" href="https://code.maringngerrang.com/highlight/solarized-dark.css" disabled="">
+  <link rel="alternate stylesheet" title="Solarized Light" href="https://code.maringngerrang.com/highlight/solarized-light.css" disabled="">
+  <link rel="alternate stylesheet" title="Srcery" href="https://code.maringngerrang.com/highlight/srcery.css" disabled="">
+  <link rel="alternate stylesheet" title="Sunburst" href="https://code.maringngerrang.com/highlight/sunburst.css" disabled="">
+  <link rel="alternate stylesheet" title="Tomorrow Night Blue" href="https://code.maringngerrang.com/highlight/tomorrow-night-blue.css" disabled="">
+  <link rel="alternate stylesheet" title="Tomorrow Night Bright" href="https://code.maringngerrang.com/highlight/tomorrow-night-bright.css" disabled="">
+  <link rel="alternate stylesheet" title="Tomorrow Night Eighties" href="https://code.maringngerrang.com/highlight/tomorrow-night-eighties.css" disabled="">
+  <link rel="alternate stylesheet" title="Tomorrow Night" href="https://code.maringngerrang.com/highlight/tomorrow-night.css" disabled="">
+  <link rel="alternate stylesheet" title="Tomorrow" href="https://code.maringngerrang.com/highlight/tomorrow.css" disabled="">
+  <link rel="alternate stylesheet" title="Vs" href="https://code.maringngerrang.com/highlight/vs.css" disabled="">
+  <link rel="alternate stylesheet" title="Vs 2015" href="https://code.maringngerrang.com/highlight/vs2015.css" disabled="">
+  <link rel="alternate stylesheet" title="Xcode" href="https://code.maringngerrang.com/highlight/xcode.css" disabled="">
+  <link rel="alternate stylesheet" title="Xt 256" href="https://code.maringngerrang.com/highlight/xt256.css" disabled="">
+  <link rel="alternate stylesheet" title="Zenburn" href="https://code.maringngerrang.com/highlight/zenburn.css" disabled="">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand" href="https://www.maringngerrang.com/">Maringngerrang Demo</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.maringngerrang.com/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.maringngerrang.com/">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.maringngerrang.com/">Sample Post</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.maringngerrang.com/">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="masthead" style="background-image: url('img/header.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="page-heading">
+            <h1>Syntax Highlighter</h1>
+            <span class="subheading">Demo Syntax Highlighter di Blogger.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <!-- ============================ EDITABLE AREA ============================ -->
+
+<p>Selamat datang! Pada halaman ini kamu bisa melihat jenis-jenis <i>style</i> yang digunakan pada <i>syntax highlighter</i>. Kamu bisa mengubah dan memilih style sesuai keinginan kamu pada menu dropdown di bawah kemudian kamu bisa copy <i><b>source code</b></i> berikut untuk mendapatkan kode dari style yang kamu pilih.</p>
+
+<h5>Source Code</h5>
+<pre><code class="nohighlight">&lt;link href="<span id="filename">https://code.maringngerrang.com/highlight/default.css</span>" rel="stylesheet" /&gt;
+&lt;script src="https://code.maringngerrang.com/highlight.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    hljs.initHighlightingOnLoad();
+&lt;/script&gt;</code></pre>
+
+<br>
+
+<form method="get"><b>Pilih Style:</b> <select onchange="fun(this.value);"><option value="Default">Default</option><option value="A 11 Y Dark">A 11 Y Dark</option><option value="A 11 Y Light">A 11 Y Light</option><option value="Agate">Agate</option><option value="An Old Hope">An Old Hope</option><option value="Androidstudio">Androidstudio</option><option value="Arduino Light">Arduino Light</option><option value="Arta">Arta</option><option value="Ascetic">Ascetic</option><option value="Atelier Cave Dark">Atelier Cave Dark</option><option value="Atelier Cave Light">Atelier Cave Light</option><option value="Atelier Dune Dark">Atelier Dune Dark</option><option value="Atelier Dune Light">Atelier Dune Light</option><option value="Atelier Estuary Dark">Atelier Estuary Dark</option><option value="Atelier Estuary Light">Atelier Estuary Light</option><option value="Atelier Forest Dark">Atelier Forest Dark</option><option value="Atelier Forest Light">Atelier Forest Light</option><option value="Atelier Heath Dark">Atelier Heath Dark</option><option value="Atelier Heath Light">Atelier Heath Light</option><option value="Atelier Lakeside Dark">Atelier Lakeside Dark</option><option value="Atelier Lakeside Light">Atelier Lakeside Light</option><option value="Atelier Plateau Dark">Atelier Plateau Dark</option><option value="Atelier Plateau Light">Atelier Plateau Light</option><option value="Atelier Savanna Dark">Atelier Savanna Dark</option><option value="Atelier Savanna Light">Atelier Savanna Light</option><option value="Atelier Seaside Dark">Atelier Seaside Dark</option><option value="Atelier Seaside Light">Atelier Seaside Light</option><option value="Atelier Sulphurpool Dark">Atelier Sulphurpool Dark</option><option value="Atelier Sulphurpool Light">Atelier Sulphurpool Light</option><option value="Atom One Dark Reasonable">Atom One Dark Reasonable</option><option value="Atom One Dark">Atom One Dark</option><option value="Atom One Light">Atom One Light</option><option value="Brown Paper">Brown Paper</option><option value="Codepen Embed">Codepen Embed</option><option value="Color Brewer">Color Brewer</option><option value="Darcula">Darcula</option><option value="Dark">Dark</option><option value="Default">Default</option><option value="Docco">Docco</option><option value="Dracula">Dracula</option><option value="Far">Far</option><option value="Foundation">Foundation</option><option value="Github Gist">Github Gist</option><option value="Github">Github</option><option value="Gml">Gml</option><option value="Googlecode">Googlecode</option><option value="Gradient Dark">Gradient Dark</option><option value="Grayscale">Grayscale</option><option value="Gruvbox Dark">Gruvbox Dark</option><option value="Gruvbox Light">Gruvbox Light</option><option value="Hopscotch">Hopscotch</option><option value="Hybrid">Hybrid</option><option value="Idea">Idea</option><option value="Ir Black">Ir Black</option><option value="Isbl Editor Dark">Isbl Editor Dark</option><option value="Isbl Editor Light">Isbl Editor Light</option><option value="Kimbie Dark">Kimbie Dark</option><option value="Kimbie Light">Kimbie Light</option><option value="Lightfair">Lightfair</option><option value="Magula">Magula</option><option value="Mono Blue">Mono Blue</option><option value="Monokai Sublime">Monokai Sublime</option><option value="Monokai">Monokai</option><option value="Night Owl">Night Owl</option><option value="Nord">Nord</option><option value="Obsidian">Obsidian</option><option value="Ocean">Ocean</option><option value="Paraiso Dark">Paraiso Dark</option><option value="Paraiso Light">Paraiso Light</option><option value="Pojoaque">Pojoaque</option><option value="Purebasic">Purebasic</option><option value="Qtcreator Dark">Qtcreator Dark</option><option value="Qtcreator Light">Qtcreator Light</option><option value="Railscasts">Railscasts</option><option value="Rainbow">Rainbow</option><option value="Routeros">Routeros</option><option value="School Book">School Book</option><option value="Shades Of Purple">Shades Of Purple</option><option value="Solarized Dark">Solarized Dark</option><option value="Solarized Light">Solarized Light</option><option value="Srcery">Srcery</option><option value="Sunburst">Sunburst</option><option value="Tomorrow Night Blue">Tomorrow Night Blue</option><option value="Tomorrow Night Bright">Tomorrow Night Bright</option><option value="Tomorrow Night Eighties">Tomorrow Night Eighties</option><option value="Tomorrow Night">Tomorrow Night</option><option value="Tomorrow">Tomorrow</option><option value="Vs">Vs</option><option value="Vs 2015">Vs 2015</option><option value="Xcode">Xcode</option><option value="Xt 256">Xt 256</option><option value="Zenburn">Zenburn</option></select></form>
+
+<br>
+
+<h5>HTML</h5>
+<pre><code>&lt;!DOCTYPE html&gt;
+&lt;title&gt;Title&lt;/title&gt;
+
+&lt;style&gt;body {width: 500px;}&lt;/style&gt;
+
+&lt;script type="application/javascript"&gt;
+  function $init() {return true;}
+&lt;/script&gt;
+
+&lt;body&gt;
+  &lt;p checked class="title" id='title'&gt;Title&lt;/p&gt;
+  &lt;!-- here goes the rest of the page --&gt;
+&lt;/body&gt;</code></pre>
+
+<br>
+
+<h5>CSS</h5>
+<pre><code>@font-face {
+  font-family: Chunkfive; src: url('Chunkfive.otf');
+}
+
+body, .usertext {
+  color: #F0F0F0; background: #600;
+  font-family: Chunkfive, sans;
+  --heading-1: 30px/32px Helvetica, sans-serif;
+}
+
+@import url(print.css);
+@media print {
+  a[href^=http]::after {
+    content: attr(href)
+  }
+}</code></pre>
+
+<br>
+
+<h5>JavaScript</h5>
+<pre><code>function $initHighlight(block, cls) {
+  try {
+    if (cls.search(/\bno\-highlight\b/) != -1)
+      return process(block, true, 0x0F) +
+             ` class="${cls}"`;
+  } catch (e) {
+    /* handle exception */
+  }
+  for (var i = 0 / 2; i &lt; classes.length; i++) {
+    if (checkCondition(classes[i]) === undefined)
+      console.log('undefined');
+  }
+
+  return (
+    &lt;div&gt;
+      &lt;web-component&gt;{block}&lt;/web-component&gt;
+    &lt;/div&gt;
+  )
+}
+
+export  $initHighlight;</code></pre>
+
+<p>Halaman ini adalah halaman demo, untuk melihat tutorial lengkap tentang pembuatan dan pemasangan syntax highlighter di Blogger, baca <a href="https://www.maringngerrang.com/2020/05/syntax-highlighter-di-blogger.html"><b>di sini</b></a>.</p>
+
+      <!-- ============================ EDITABLE AREA ============================ -->
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://www.youtube.com/channel/UCYcEw5OGFtqYIPxabw9kQTQ?sub_confirmation=1">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.instagram.com/hadipurnomo23/">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <p class="copyright text-muted">Copyright &copy; <a href="https://www.maringngerrang.com">Maringngerrang</a></p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/clean-blog.min.js"></script>
+
+  <!-- For Syntax Highlighter Script -->
+  <script src="https://code.maringngerrang.com/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+  <script>
+  function fun(val) {
+    var $linkTitle = $('link[title]');
+    $linkTitle.each(function(i, link) {
+      link.disabled = (link.title !== val);
+      if (link.title === val) $("#filename").html(link.href);
+    });
+  }
+  </script>
+
+</body>
+
+</html>
