@@ -169,7 +169,7 @@
 <p>Selamat datang! Pada halaman ini kamu bisa melihat jenis-jenis <i>style</i> yang digunakan pada <i>syntax highlighter</i>. Kamu bisa mengubah dan memilih style sesuai keinginan kamu pada menu dropdown di bawah kemudian kamu bisa copy <i><b>source code</b></i> berikut untuk mendapatkan kode dari style yang kamu pilih.</p>
 
 <h5>Source Code</h5>
-<pre><code class="nohighlight">&lt;link href="<span id="filename">https://code.maringngerrang.com/highlight/default.css</span>" rel="stylesheet" /&gt;</code></pre>
+<pre><code class="nohighlight" title="KLIK 1X UNTUK SELECT ALL">&lt;link href="<span id="filename">https://code.maringngerrang.com/highlight/default.css</span>" rel="stylesheet" /&gt;</code></pre>
 
 <br>
 
@@ -321,6 +321,22 @@ s.setAttribute('data-timestamp', +new Date());
       link.disabled = (link.title !== val);
       if (link.title === val) $("#filename").html(link.href);
     });
+  }
+  </script>
+
+  <script>
+  var pres = $(".nohighlight");
+  // var pres = document.getElementsByTagName('code');
+  for (var i = 0; i < pres.length; i++) {
+    pres[i].addEventListener('click', function (evt) {
+      if (evt.detail === 1) {
+        var selection = getSelection();
+        var range = document.createRange();
+        range.selectNodeContents(this);
+        selection.removeAllRanges();
+        selection.addRange(range);
+      }
+    }, false);
   }
   </script>
 
